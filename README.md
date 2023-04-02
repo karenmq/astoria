@@ -1,2 +1,1 @@
-# astoria
-A simple, static webpage for a short story.
+A static page for a short story.
