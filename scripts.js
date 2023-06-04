@@ -1,4 +1,4 @@
-// COLLAPSIBLLES
+// FADE IN CONTENT
 
 var collapse = document.getElementsByClassName("collapsible");
 

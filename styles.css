@@ -1,3 +1,7 @@
+body {
+    margin: auto;
+}
+
 .background {
     background-attachment: fixed;
     background-position: center;
@@ -12,24 +16,43 @@
 }
 
 .pink {
-    background-image: url("images/pink.jpg");
+    background-image: url("images/ph1.jpg");
 }
 
-.cheese {
+/* .cheese {
     background-image: url("images/cheese.jpg");
-}
+} */
 
 .text-block-small {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 40px;
     width: 30%;
+}
+
+#fade-one {
+    margin: 0;
+    padding: 20px;
+    width: 80%;
+}
+
+#news-clip {
+    display: flex;
+    justify-content: center;
+    padding: 30% 0 30% 0;
 }
 
 /*RESPONSIVE LAYOUTS*/
 
 @media screen and (max-width: 900px) {
+
     .text-block-small {
         background-color: aqua;
-        width: 80%;
+        width: 70%;
+    }
+
+    #fade-one {
+        background-color: pink;
+        /* margin-top: 100%; */
+        width: 70%;
     }
 }
