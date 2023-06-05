@@ -6,15 +6,24 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Astoria</title>
         <link rel="stylesheet" href="styles.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="scripts.js"></script>
     </head>
 
     <body>
+
+        <!-- TITLE BLOCK -->
         <section class="background pink">
-            <h1>Astoria</h1>
+            <header>
+                <h1>Astoria</h1>
+                <p>Photos, writing, and design by Karen Quintanilla</p>
+            </header>
         </section>
     
+        <!-- INTRO NEWS CLIP -->
         <section id="news-clip">
-            <div class="text-block-small">
+            <div class="fade text-block-small">
                 <h2>Népszava News, June 1984</h2>
 
                 <h3>BUDAPEST WELCOMES HEAT WAVE WITH
@@ -28,12 +37,15 @@
             </div>
 
         </section>
-        
-        <section">
-            <div id="fade-one">
-                <p>- 2017 -</p>
 
-                <p>The City</p>
+        <!-- "THE CITY" PHOTO AND STORY BLOCK -->
+        <section class="background pink">
+            <h2>The City</h2>
+        </section>
+        
+        <section class="fade story-block"> 
+            <div>
+                <p>- 2017 -</p>
 
                 <p>I don’t really know how the name came to me. I only know that one night, I woke from my sleep and the city was there, clear and ready.</p>
 
@@ -48,11 +60,187 @@
                 <p>At night, I’d make sure both front doors were locked and place a chair in front of the innermost door, just in case. The owner of the flat had a collection of Ella Fitzgerald CDs that I’d play while eating dinner on the cerulean floor, scouting my map for the next day’s activities. At 11:30, I would climb the short set of stairs to get to the loft bed and fall into a deep sleep.</p>
             </div>
         </section>
-    
-        <div>
-            <p>test</p>
-        </div>
 
+        <!-- "THE COOK AND THE BURGER" PHOTO AND STORY BLOCK -->
+        <section class="background pink">
+            <h2>The Cook and the Burger</h2>
+        </section>
+
+        <section class="fade story-block">
+            <div class="text-block">
+                <p>The restaurant I’d read about was off the Astoria Station, heading west. It had a strong reputation among the public and critics, and had new reviews on Yelp almost every day. The specialty: gourmet burgers, offering a tastier alternative to the intrusive McDonalds and Burger King locations that were peppered across the city.</p>
+ 
+                <p>I had trouble  finding it the first time — it was a completely unassuming building. Besides not having any noticeable signage, its faded green outer walls blended with the soft greys and pastels of the avenue. I’d walked past it a few times before I noticed an empty tray with a few uneaten french fries on one of the tables inside. The door was open to let the air in, and on it in small black letters read “Astoria Burgers of Budapest.”</p>
+
+                <p>Its interior was just as plain, with bland, peeling rose walls and wiry tables and chairs, likely relics from the Soviet era. I walked in with hesitation that first time, thinking I’d come to the wrong location.</p>
+
+                <p>It was the height of the lunch hour, but there was no one eating inside, and no one at the register or in the kitchen. Hungry and unfazed, I picked up one of the simple white paper menus from the stack next to the register. There were two sides to the menu—one in Hungarian, the other in English—and two options: hamburger or cheeseburger. Both came with freshly made fries and a small Coke, whether you wanted them or not. And that was all.</p>
+
+                <p>After about a minute of turning the menu over in my hands to see if that really was all there was, a young man emerged from a door at the far end of the kitchen. He was slightly tall with long arms, a cigarette dangling from the corner of his mouth. He said nothing and only took out a small notepad and pencil from the front pocket of his apron, giving me a blank look.</p>
+
+                <p>“Afternoon,” I blurted, a bit startled. “I’ll have the cheeseburger, please, with no pickles.”</p>
+
+                <p>“I don’t use pickles,” was all he said, scribbling my order and heading back to the kitchen, where he began taking ingredients out of the refrigerator.</p>
+
+                <p>Without the chance to thank him for taking my order, I stayed standing and admired the only piece of decoration on the walls: a malfunctioning clock whose hands were stuck at 12:33, its minute hand teetering back and forth between 12:33 and 12:34. There was nothing much else to observe, so I took out my phone to check for messages but saw that Astoria Burgers conveniently offered no WiFi.</p>
+
+                <p>I moved to stand in front of the counter. He was leaning against the cabinets across from his grill, a spatula in his right hand and his cigarette on the left.</p>
+
+                <p>“Are you the owner?”</p>
+
+                <p>“Mhm,” he grunted, which I took as definitive.</p>
+
+                <p>“I see. Did I beat the lunch rush?”</p>
+
+                <p>“No,” he retorted, not taking his eyes off a sizzling patty on his grill.</p>
+
+                <p>“Oh.” I decided to opt out of the small talk and took a seat instead, seeing that I didn’t need to compete for sitting space. After a few quiet minutes, a plate and glass clattered in front of me.</p>
+
+                <p>“Enjoy,” the cook said, not all too enthusiastically, and headed back to the kitchen.</p>
+
+                <p>A soft breeze blew in through the open door, and the Coke next to me fizzed cheerfully. I inspected the burger in front of me, hungry and pleased to see chunks of melted cheese stuck to the wrapping.</p>
+
+                <p>In time, I’d come to know what I looked for in a burger, and to say Astoria’s burger was precise to the ounce, if not almost personalized, would be understatement. In my first bite I found everything—a bun covered in sesame seeds, plenty of melted cheese, and a lean patty no more than a centimeter in thickness.</p>
+
+                <p>Of life’s pleasures, one that never underperforms is a side of fresh fries sprinkled with salt. In the case of Astoria, these were tastefully condimented with paprika, a staple of Hungary and later an aroma I would never forget.</p>
+
+                <p>It was all gone in no more than ten minutes, the plate empty and the fizzy coke gulped. The soft breeze continued to flow through.</p>
+
+                <p>When I stood to go to the register and pay, I found the cook sitting at the table directly across from the one I had been in, hands clasped under his chin, looking out through the open door.</p>
+
+                <p>“This was delicious, thank you,” I said after softly clearing my throat to get his attention.</p>
+
+                <p>After a few seconds, he turned to give me the smallest of smiles and got up to take my payment at the register. No credit cards, of course, so I pulled out two thousand Forints with a few more for tip, thanking him again and bidding him farewell.</p>
+
+                <p>When I looked back before heading out the door, he was nowhere to be seen.</p>
+            </div>
+        </section>
+
+        <!-- "MILES THROUGH BUDAPEST" PHOTO AND STORY BLOCK -->
+        <section class="background pink">
+            <h2>Miles through Budapest</h2>
+        </section>
+
+        <section class="fade story-block">
+            <div>
+
+                <p>I returned to Astoria Burgers the following afternoon after a midmorning walking tour around the city. This time the cook was actually at the counter, drying off a stack of plates.</p>
+
+                <p>He peered at me curiously, and I had the sense that he wasn’t all too surprised to see me. “Back for another?”</p>
+
+                <p>I nodded. “I like burgers.”</p>
+
+                <p>“Alright then. Same as yesterday?”</p>
+
+                <p>“Yes, please.” I took a seat at the same table while he walked behind the counter towards the grill, lighting a cigarette on his way.</p>
+
+                <p>“Is the restaurant a family business?” I asked.</p>
+
+                <p>He gave a small laugh. “No.”</p>
+
+                <p>I waited for a few seconds to see if he would follow up. There was a curious itch in my subconscious, an itch for a conversation and for one with answers. I decided to disregard my manners and be nosy, and possibly a bit rude.</p>
+
+                <p>“So you bought the place recently?”</p>
+
+                <p>“I’ve had it for a few years.”</p>
+
+                <p>“I see. Is it just you?”</p>
+
+                <p>“If you’re with Department of Health, I already had an inspection last month.”</p>
+
+                <p>“No, I’m sorry,” I chuckled nervously. “I was just curious. But I will say that if this were Los Angeles, you’d be shut down for smoking on the job.”
+                
+                <p>He smirked, letting out a cloud of smoke. “Good thing this isn’t LA, then.”</p>
+
+                <p>“Can’t say I disagree.”</p>
+
+                <p>A plate appeared before me after a short while, and instead of disappearing into his kitchen, he slouched against the register counter, puffing away and watching the passersby.</p>
+
+                <p>“What news do you have of Los Angeles?”</p>
+
+                <p>A bit surprised by his initiative to chat, I gaped at him for a second before swallowing the mouthful I’d taken and wiped the corners of my mouth with a napkin.</p>
+
+                <p>“Nothing much. The traffic gets worse and the rents keep going up.” Pause. “Some days I feel it brings out the worst in me.”</p>
+
+                <p>He nodded as if he were mulling this over. “Fair enough. I take it you’re glad to be away for a while.”</p>
+
+                <p>“I am. It has its faults, but sometimes I have to remind myself it’s not that bad. At least it’s not in a war zone. And if I shit-talk Trump I won’t be thrown in jail, or anything. But sometimes it takes me more than two hours to get home from work and I just want to burn the whole city to the ground. Let it start over.”</p>
+
+                <p>I paused, flustered at being so open with a stranger, and attempted to bring back a helping of politeness to the conversation. “You should visit someday if you have the chance. You might like it.”</p>
+
+                <p>“I don’t think you quite believe that,” he quipped, flicking his lighter on and off.</p>
+
+                <p>I grinned at his comment. “Are you from Budapest?”</p>
+
+                <p>“No.”</p>
+
+                <p>I had the feeling that asking about his hometown wouldn’t be a good idea, so I held back. He must have sensed my hesitation, because he shared just a sliver more.</p>
+
+                <p>“I’m from out of town. But you can say I’ve been here pretty much my whole life.”</p>
+
+                <p>“I see. Do you like it here?”</p>
+
+                <p>“Can’t say I don’t.”</p>
+
+                <p>To be expected. He didn’t ask, but I continued. “I’m loving it so far. I could walk for miles here and not get tired.”</p>
+
+                <p>This time he gave the second smallest of smiles. “I’m glad you’re enjoying it.”</p>
+
+                <p>“Is there anything you recommend I check out?”</p>
+
+                <p>He observed me for a few seconds, brows furrowed in thought. After a while, he said “Nothing in particular,” and disappeared into the kitchen.</p>
+
+                <p>*</p>
+
+                <p>In the afternoon I explored the Parliament building, drowned in the softness of the evening light. By the time I returned to my blue-tiled flat, I’d walked a little over twelve miles. I was tired but not yet done for the day.</p>
+
+                <p>In no mood for cooking, I headed back to Astoria Burgers for dinner. He was sitting outside on an empty crate, elbows on his knees, lighting a fresh cigarette.</p>
+
+                <p>“There are other places to try, you know.” The smell of his tobacco felt enticing.</p>
+
+                <p>“Not tonight,” I shrugged.</p>
+
+                <p>This time, he ate along with me. I sat at my usual table and he stood at the counter, picking at a baked potato.</p>
+
+                <p>Feeling unusually chatty, I told him about my adventure the previous day at an isolated bus stop in the outskirts of the city, surrounded by nothing but pasture and old Soviet statues.</p>
+
+                <p>“What do you like most about Budapest?” I asked, sipping on iced water with lemon.</p>
+
+                <p>He raised an eyebrow. “What do I like?”</p>
+
+                <p>“Mhm. What would you miss if you had to move somewhere else?”</p>
+
+                <p>“What would I miss.” He suddenly looked like he was far away.</p>
+
+                <p>“Well, I like my restaurant. I like it a lot. And I like going to the baths.” He brought his fork a few inches from his eyes and stared at it intensely for a few seconds. “I like that I can walk anywhere I need to go. The trolleys are usually on time, and the trains are clean for the most part.”</p>
+
+                <p>These were simple things, but I found myself wanting them more than anything. A seedling of envy towards my new friend started making its way up my spine as I pondered about his life, waking every day to an old city full of treasures and secrets and trains that actually ran on time.</p>
+
+                <p>“What’s the weirdest thing you’ve seen here?”</p>
+
+                <p>“Weird how?” “Anything, like a glowing man or a UFO. My tour guide earlier today said she remembers a weird explosion from back when she was a kid in the ‘80s, but no one ever figured out what it was.”</p>
+
+                <p>I saw him fully smile for the first time since I’d started coming to his restaurant. “One time I met an American who ate nothing but burgers for lunch and dinner. Does that count?”</p>
+
+                <p>We laughed, and moved on to a conversation about the many merits of boiled leeks.</p>
+
+                <p>*</p>
+
+                <p>After dinner, my feet carried me through my nightly walk along the Danube, gold surrounding me left and right.</p>
+
+                <p>My evening had been unexpectedly delightful. I felt refreshed, as if I’d met an old friend in an old city I knew well, and I resisted an urge to stifle a smile as I thought back on my conversations at the restaurant.</p>
+
+                <p>One thing, however, lingered in the foreground of my thoughts. During the two hours I’d spent at Astoria, no one else came in. No local patrons, no delivery workers. I couldn’t be certain of Hungarian prime mealtime hours, but it still seemed strange for no one to come by, unless it was all just a heavy coincidence.</p>
+
+                <p>And yet somehow, Astoria Burgers managed to have at least two new Yelp reviews each day since I’d been in Budapest. The photos showed the same simple menu I found that first day, and the same faded pink walls behind smiling reviewers. There was no mistaking it was the same place.</p>
+
+                <p>I decided not to worry about it. After all, the emptiness of the restaurant had introduced me to a new somewhat-friend. The food was great and I was on vacation, and vacations were no time for critical thinking.</p>
+
+                <p>A teenage boy stood next to a river boat, promoting tickets for a river cruise along the Danube. Couples flocked in, most of them tourists, their arms looped together and their eyes bright.</p>
+
+                <p>Feeling content and a little drunk from the cold night air, I bought a ticket and hopped on.</p>
+            </div>
+        </section>
 
     </body>
 </html>

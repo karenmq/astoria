@@ -1,18 +1,46 @@
 // FADE IN CONTENT
+$(document).on("scroll", function() {
+  var pageTop = $(document).scrollTop();
+  var pageBottom = pageTop + $(window).height();
+  var fades = $(".fade");
 
-var collapse = document.getElementsByClassName("collapsible");
-
-var n;
-
-for (n = 0; n < collapse.length; n++) {
-  collapse[n].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-        content.style.maxHeight = null;
+  for (var i = 0; i < fades.length; i++) {
+    var fade = fades[i];
+    if ($(fade).position().top < pageBottom) {
+      $(fade).addClass("visible");
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      $(fade).removeClass("visible");
     }
-  });
-}
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// COLLAPSIBLE
+// var collapse = document.getElementsByClassName("collapsible");
+
+// var n;
+
+// for (n = 0; n < collapse.length; n++) {
+//   collapse[n].addEventListener("click", function () {
+//     this.classList.toggle("active");
+//     var content = this.nextElementSibling;
+//     if (content.style.maxHeight) {
+//         content.style.maxHeight = null;
+//     } else {
+//       content.style.maxHeight = content.scrollHeight + "px";
+//     }
+//   });
+// }
 
