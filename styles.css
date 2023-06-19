@@ -1,4 +1,5 @@
 body {
+    background-color: #F1F7ED;
     margin: auto;
 }
 
@@ -22,6 +23,42 @@ body {
 
 .pink {
     background-image: url("images/ph1.jpg");
+    color: #ffffff;
+}
+
+.cover {
+    background-image: url("images/budapest-parliament-mobile.jpg");
+    color: #ffffff;
+}
+
+.part-one {
+    background-image: url("images/the-city-mobile.jpg");
+    color: #ffffff;
+}
+
+.part-two {
+    background-image: url("images/cook-and-burger-mobile.jpg");
+    color: #ffffff;
+}
+
+.part-three {
+    background-image: url("images/parliament-at-night.jpg");
+    color: #ffffff;
+}
+
+.part-four {
+    background-image: url("images/gellert-interior.jpg");
+    color: #ffffff;
+}
+
+.part-five {
+    background-image: url("images/budapest-panorama.jpg");
+    color: #ffffff;
+}
+
+.part-six {
+    background-image: url("images/liberty-statue-mobile.jpg");
+    color: #ffffff;
 }
 
 /* FADE-IN CLASSES */
@@ -45,6 +82,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 125vh;
     /* padding: 30% 0 30% 0; */
 }
 
@@ -54,7 +92,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 20px;
+    padding-top: 50%;
+    padding-bottom: 50%;
     width: 50%;
 }
 
