@@ -1,11 +1,20 @@
 body {
-    background-color: #F1F7ED;
+    background-color: #FEFBEC;
+    font-family: 'Roboto Slab', serif;
     margin: auto;
 }
 
-/* section {
-    height: 125vh;
-} */
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-top: 20%;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+}
 
 /* FADE-IN BACKGROUNDS */
 .background {
@@ -14,11 +23,13 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-    /* color: #ffffff; */
+    color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    text-align: center;
+    padding-bottom: 50%;
 }
 
 .pink {
@@ -27,9 +38,17 @@ body {
 }
 
 .cover {
-    background-image: url("images/budapest-parliament-mobile.jpg");
+    background-image: url("images/budapest-parliament-desktop.jpg");
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10%;
 }
+
+/* BACKGROUND IMAGES FOR EACH SECTION */
+
 
 .part-one {
     background-image: url("images/the-city-mobile.jpg");
@@ -57,7 +76,17 @@ body {
 }
 
 .part-six {
-    background-image: url("images/liberty-statue-mobile.jpg");
+    background-image: url("images/liberty-statue-desktop.jpg");
+    color: #ffffff;
+}
+
+.part-seven {
+    background-image: url("images/budapest-twilight.jpg");
+    color: #ffffff;
+}
+
+.part-eight {
+    background-image: url("images/number-two-desktop.jpg");
     color: #ffffff;
 }
 
@@ -82,12 +111,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 125vh;
+    text-align: justify;
     /* padding: 30% 0 30% 0; */
+}
+
+/* CHAPTER TITLE TEXT */
+.part {
+    font-weight: 300;
+    text-shadow: 1px 1px #000000;
+}
+
+.part-title {
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #000000;
 }
 
 /* STORY SECTIONS */
 .story-block {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,16 +145,51 @@ body {
     overflow: hidden;
 }
 
+/* SECTION SEPARATORS */
+.hr {
+    padding: 5%;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
 /*RESPONSIVE LAYOUTS*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
+
+    h1 {
+        padding-top: 50%;
+    }
+
+    .cover {
+        background-image: url("images/budapest-parliament-mobile.jpg");
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 10%;
+    }
 
     .text-block-small {
-        background-color: aqua;
         width: 70%;
+    }
+
+    .part-title {
+        padding-left: 15px;
+        /* padding-right: -15px; */
     }
 
     .story-block {
         width: 80%;
+    }
+
+    .part-six {
+        background-image: url("images/liberty-statue-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-eight {
+        background-image: url("images/number-two.jpg");
+        color: #ffffff;
     }
 }
