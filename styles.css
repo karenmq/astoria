@@ -162,6 +162,7 @@ h3 {
 
     .cover {
         background-image: url("images/budapest-parliament-mobile.jpg");
+        background-size: auto 100%;
         color: #ffffff;
         display: flex;
         flex-direction: column;
@@ -172,11 +173,6 @@ h3 {
 
     .text-block-small {
         width: 70%;
-    }
-
-    .part-title {
-        padding-left: 15px;
-        /* padding-right: -15px; */
     }
 
     .story-block {
