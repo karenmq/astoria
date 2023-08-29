@@ -158,9 +158,10 @@ h3 {
     /* FADE-IN BACKGROUNDS */
     .background {
         background-attachment: fixed;
-        background-position: center center;
-        background-size: contain;
-        max-width: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
         color: #ffffff;
         display: flex;
         flex-direction: column;
@@ -171,7 +172,7 @@ h3 {
     }
 
     .cover {
-        background-image: url("images/budapest-parliament-mobile-2.jpg");
+        background-image: url("images/budapest-parliament-mobile.jpg");
         color: #ffffff;
         display: flex;
         flex-direction: column;
