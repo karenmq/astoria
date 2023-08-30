@@ -160,7 +160,7 @@ h3 {
         background-attachment: fixed;
         background-position: center center;
         background-size: cover;
-        max-height: 100vh;
+        /* min-height: 100vh; */
         /* max-width: 100%; */
         color: #ffffff;
         display: flex;
