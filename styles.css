@@ -149,7 +149,7 @@ h3 {
 
 /*RESPONSIVE LAYOUTS*/
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
     h1 {
         padding-top: 50%;
