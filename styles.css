@@ -159,7 +159,7 @@ h3 {
     .background {
         /* background-attachment: fixed; */
         background-position: center;
-        /* background-size: contain; */
+        background-size: contain;
         /* max-height: 100vh; */
         max-width: 500px;
         color: #ffffff;
