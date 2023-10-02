@@ -188,8 +188,28 @@ h3 {
         width: 80%;
     }
 
+    .part-three {
+        background-image: url("images/parliament-at-night-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-four {
+        background-image: url("images/gellert-interior-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-five {
+        background-image: url("images/budapest-panorama-mobile.jpg");
+        color: #ffffff;
+    }
+
     .part-six {
         background-image: url("images/liberty-statue-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-seven {
+        background-image: url("images/budapest-twilight-mobile.jpg");
         color: #ffffff;
     }
 
