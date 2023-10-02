@@ -157,11 +157,11 @@ h3 {
 
     /* FADE-IN BACKGROUNDS */
     .background {
-        /* background-attachment: fixed; */
+        background-attachment: fixed;
         background-position: center;
-        background-size: contain;
+        background-size: 100vh auto;
         /* max-height: 100vh; */
-        max-width: 500px;
+        /* max-width: 500px; */
         color: #ffffff;
         display: flex;
         flex-direction: column;
