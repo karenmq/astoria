@@ -160,7 +160,7 @@ h3 {
         background-attachment: fixed;
         background-position: center;
         background-size: 190vw auto;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
         color: #ffffff;
         display: flex;
         flex-direction: column;
