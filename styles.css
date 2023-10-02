@@ -159,9 +159,8 @@ h3 {
     .background {
         background-attachment: fixed;
         background-position: center;
-        background-size: 100vh auto;
-        /* max-height: 100vh; */
-        /* max-width: 500px; */
+        background-size: 100vw 200vh auto;
+        /* min-height: 100vh; */
         color: #ffffff;
         display: flex;
         flex-direction: column;
