@@ -158,7 +158,7 @@ h3 {
     /* FADE-IN BACKGROUNDS */
     .background {
         background-attachment: fixed;
-        background-position: center;
+        background-position: top;
         background-size: 175vw auto;
         /* background-repeat: no-repeat; */
         color: #ffffff;
