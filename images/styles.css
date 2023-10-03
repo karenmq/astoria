@@ -1,0 +1,224 @@
+body {
+    background-color: #FEFBEC;
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-top: 20%;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+}
+
+/* FADE-IN BACKGROUNDS */
+.background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+.cover {
+    background-image: url("images/budapest-parliament-desktop.jpg");
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10%;
+}
+
+/* BACKGROUND IMAGES FOR EACH SECTION */
+
+
+.part-one {
+    background-image: url("images/the-city-mobile.jpg");
+    color: #ffffff;
+}
+
+.part-two {
+    background-image: url("images/cook-and-burger-mobile.jpg");
+    color: #ffffff;
+}
+
+.part-three {
+    background-image: url("images/parliament-at-night.jpg");
+    color: #ffffff;
+}
+
+.part-four {
+    background-image: url("images/gellert-interior.jpg");
+    color: #ffffff;
+}
+
+.part-five {
+    background-image: url("images/budapest-panorama.jpg");
+    color: #ffffff;
+}
+
+.part-six {
+    background-image: url("images/liberty-statue-desktop.jpg");
+    color: #ffffff;
+}
+
+.part-seven {
+    background-image: url("images/budapest-twilight.jpg");
+    color: #ffffff;
+}
+
+.part-eight {
+    background-image: url("images/number-two-desktop.jpg");
+    color: #ffffff;
+}
+
+/* FADE-IN CLASSES */
+.fade {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.fade.visible {
+    opacity: 1;
+}
+
+/* INTRO NEWS CLIP */
+.text-block-small {
+    /* background-color: #ffffff; */
+    /* padding: 40px; */
+    width: 400px;
+}
+
+#news-clip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 125vh;
+    text-align: justify;
+    /* padding: 30% 0 30% 0; */
+}
+
+/* CHAPTER TITLE TEXT */
+.part {
+    font-weight: 300;
+    text-shadow: 1px 1px #000000;
+}
+
+.part-title {
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #000000;
+}
+
+/* STORY SECTIONS */
+.story-block {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    width: 50%;
+}
+
+.text-block {
+    overflow: hidden;
+}
+
+/* SECTION SEPARATORS */
+.hr {
+    padding: 5%;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+/*RESPONSIVE LAYOUTS*/
+
+@media all and (max-width: 500px) {
+
+    h1 {
+        padding-top: 50%;
+    }
+
+    /* FADE-IN BACKGROUNDS */
+    .background {
+        background-attachment: scroll;
+        background-position: top;
+        background-size: 175vw auto;
+        /* background-repeat: no-repeat; */
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50%;
+    }
+
+    .cover {
+        background-image: url("images/budapest-parliament-mobile.jpg");
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    #title-byline {
+        margin-top: 60%;
+    }
+
+    .text-block-small {
+        width: 70%;
+    }
+
+    .story-block {
+        width: 80%;
+    }
+
+    .part-three {
+        background-image: url("images/parliament-at-night-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-four {
+        background-image: url("images/gellert-interior-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-five {
+        background-image: url("images/budapest-panorama-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-six {
+        background-image: url("images/liberty-statue-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-seven {
+        background-image: url("images/budapest-twilight-mobile.jpg");
+        color: #ffffff;
+    }
+
+    .part-eight {
+        background-image: url("images/number-two.jpg");
+        color: #ffffff;
+    }
+}
