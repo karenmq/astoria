@@ -149,7 +149,7 @@ h3 {
 
 /*RESPONSIVE LAYOUTS*/
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 1290px) {
 
     h1 {
         padding-top: 50%;
@@ -160,7 +160,6 @@ h3 {
         background-attachment: scroll;
         background-position: top;
         background-size: 175vw auto;
-        /* background-repeat: no-repeat; */
         color: #ffffff;
         display: flex;
         flex-direction: column;
@@ -180,6 +179,20 @@ h3 {
         padding-top: 10%;
     }
 
+    .cover1 {
+        background-image: url("images/parliament-and-no2.jpg");
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 50%;
+    }
+
+    /* #title-byline {
+        margin-top: 60%;
+    } */
+
     .text-block-small {
         width: 70%;
     }
@@ -191,6 +204,8 @@ h3 {
     .part-three {
         background-image: url("images/parliament-at-night-mobile.jpg");
         color: #ffffff;
+        justify-content: flex-start;
+        padding-top: 30%;
     }
 
     .part-four {
@@ -201,6 +216,8 @@ h3 {
     .part-five {
         background-image: url("images/budapest-panorama-mobile.jpg");
         color: #ffffff;
+        justify-content: flex-start;
+        padding-top: 30%;
     }
 
     .part-six {
@@ -211,10 +228,14 @@ h3 {
     .part-seven {
         background-image: url("images/budapest-twilight-mobile.jpg");
         color: #ffffff;
+        justify-content: flex-start;
+        padding-top: 30%;
     }
 
     .part-eight {
         background-image: url("images/number-two.jpg");
         color: #ffffff;
+        justify-content: flex-start;
+        padding-top: 30%;
     }
 }
